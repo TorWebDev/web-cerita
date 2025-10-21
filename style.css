@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #e2e2e2;
+}
+
+
+nav{
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+    font-size: large;
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #000;
+    font-weight: bold;
+    padding: 8px 0px;
+    transition: all;
+    transition-duration: 400ms;
+    border-bottom: 1px solid rgba(0, 0, 255, 0)
+}
+
+
+nav ul li a:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+
+h1 {
+    text-align: center;
+    color: #8b4513;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+.txt p {
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 15px;
+    margin-inline: 100px;
+    border-left: 15px solid #daa520; /* Gold accent */
+
+}
+
+
+.txt p:hover {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.txt span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.title {
+    text-align: center;
+    color: rgb(0, 0, 255);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    border-left: 50px solid blue;
+    padding: 15px;
+} 
+
+
+.name {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    transition: all;
+    transition-duration: 400ms;
+    
+}
+
+
+.name:hover {
+    border-style: outset;
+}
+
+
+.name a {
+    text-align: center;
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+
+.name a {
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(0, 0, 255, 0)
+}
+
+
+.name a:hover{
+    color: #daa520;
+    border-bottom: 1px solid #daa520;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
